@@ -1,0 +1,242 @@
+.suggestions{
+    margin-top:30px;
+    padding:10px;
+    width: 100vw; 
+}
+
+.card-aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    width: 200px;
+    height: 70px;
+}
+
+.card-1{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 12px;
+    width: 250px;
+    height: 52px;
+}
+
+.container ul{
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px;
+    gap: 22px;
+    padding-top: 20px;
+
+    width: 360px;
+    height: 264px;
+}
+
+input{
+    border: 2px solid #DEE2E6;
+    background: #FFFFFF;
+    border-radius: 4px;
+    height: 52px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    color: #868E96;
+    padding-left: 10px;
+}
+
+textarea{
+    border: 2px solid #DEE2E6;
+    background: #FFFFFF;
+    border-radius: 4px;
+    height: 95px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    color: #868E96;
+    padding-left: 10px;
+    padding-top:10px;
+}
+
+.perfil-name p{
+    padding-top:10px;
+}
+
+.card-post-perfil h2{
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 700;
+    color: #212529;;
+}
+
+.card-post-perfil span{
+    font-family: 'Inter';
+    font-size: 14px;
+    color: #495057;
+}
+
+.card-perfil{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+    height: 52px;
+}
+
+.ul-posts{
+    gap: 52px;
+    display: flex;
+    flex-direction: column;
+    width: 385px;
+    height: 264px;
+}
+
+.ul-posts h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px; 
+    color: #212529;
+    padding-top: 40px;
+    margin: -.5rem;
+}
+
+.ul-posts li{
+    margin-bottom: 20px;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: auto;
+    gap: 12px;
+    height: 52px;
+    margin-bottom: 10px;
+}
+
+.card h2{
+    font-family: 'Inter';
+    font-size: 20px; 
+    padding:0;
+    margin: auto;
+}
+
+.card p{
+    font-family: 'Inter';
+    font-size: 14px; 
+    padding:0;
+    color: #495057;
+}
+
+.perfil-content h2{
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 700;
+    color: #212529;;
+    padding-top: 15px;
+    line-height: 2.5rem;
+    padding-bottom:20px;
+    margin: auto; 
+}
+
+.perfil-content p{
+    font-family: 'Inter';
+    line-height: 1.75rem;
+    font-size: 1rem;
+    color: #495057; 
+    padding-bottom:20px;
+    margin: auto; 
+}
+
+.likes{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: stretch;
+    gap: 10px;
+} 
+
+.img-likes{
+    width: 22px;
+    height: 20px;
+    padding-top:8px;
+    margin-left:20px;
+    cursor: pointer;
+}
+
+.likes >p{
+    font-family: 'Inter';
+    font-size: 14px;
+    padding-top:10px;
+}
+
+
+@media (min-width: 768px){
+    aside{
+        position: absolute;
+        left:500px;
+        top:150px;
+    }
+    
+    .card-aside{
+        margin-left: 33px;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        align-content: center;
+        flex-wrap: wrap;
+        height: 32px;
+    }
+
+    .container ul{
+        display: flex;
+        flex-direction: column; 
+        overflow-x: hidden;
+        overflow-y: hidden;
+        width: 400px;
+    }
+
+    .suggestions{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+        padding: 10px;
+        width: 50%;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .ul-posts{
+        width: 50%;
+        padding-top: 40px;
+    }
+    
+    main{
+        margin-left: 30px;
+    }
+
+    form{
+        width: 50%;
+    }
+
+    .suggestions >h2{
+        margin-right: 130px;
+    }
+}
